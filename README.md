@@ -1,1 +1,1 @@
-# NoEndToLF.github.io
+[static blog](https://aicely.com/)
