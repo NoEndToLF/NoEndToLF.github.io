@@ -1,5 +1,9 @@
 <header class="header">
-  <img class="logo" src="{{ site.baseurl }}/static/img/logo.jpg" alt="logo" style="vertical-align:middle"/><span>static</span>
+  <div>
+  <img class="logo" src="{{ site.baseurl }}/static/img/logo.jpg" alt="logo" style="vertical-align:middle"/>
+  <span>static</span>
+  </div>
+
   <nav class="menu">
     {% for menu in site.menu -%}
     <a href="{{ site.baseurl }}{{ menu.url }}" class="hover-underline">{{ menu.title }}</a>
